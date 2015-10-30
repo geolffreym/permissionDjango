@@ -11,9 +11,9 @@ class List(PermissionRequired, ListView):
     """
     # Test Model
     model = PHandler
-    # Has the user pHandler.view_phandler?
+    # Has the user phandler.view_phandler permission?
     # Fill the list with required permissions to access this view..
-    permission_required = ['pHandler.view_phandler']
+    permission_required = ['phandler.view_phandler']
     # The failure perm template!! default ~ 'layout/error/permission_denied.html'
     failure_perm_template = 'error.html'
     # The main template
