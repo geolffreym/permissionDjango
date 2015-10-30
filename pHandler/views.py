@@ -21,7 +21,7 @@ class List(PermissionRequired, ListView):
 
     def custom_permission_handle(self):
         """
-        Random permit shall be verified, on par with the permissions list
+        Custom permission shall be verified, on par with the permissions list
         :return: bool
         """
         # Need a custom permission?
