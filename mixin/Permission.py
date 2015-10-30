@@ -5,7 +5,7 @@ from django.shortcuts import render_to_response
 class PermissionRequired(object):
     """
     Handle Permission for the views
-    :var failure_perm_template // The default not authorized view
+    :var failure_perm_template // The default not authorized template
     :var permission_requires // The permission needed for view
     """
     failure_perm_template = 'layout/error/permission_denied.html'
